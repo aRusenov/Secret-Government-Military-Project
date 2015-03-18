@@ -10,6 +10,9 @@ stage.addChild(circle);
 //Update stage will render next frame
 stage.update();
 
+(function () {
+
+})()
 
 circle.addEventListener("click", function (event) {
     console.log("clicked");

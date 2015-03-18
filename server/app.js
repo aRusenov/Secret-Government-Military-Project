@@ -6,6 +6,10 @@ http.listen(3000, function () {
     console.log('listening on *:3000');
 });
 
+(function () {
+    asd
+}()) 
+
 io.on('connection', function (socket) {
     console.log('a user connected');
 
